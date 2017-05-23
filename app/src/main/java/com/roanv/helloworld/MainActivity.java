@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Button btn_hello = (Button) findViewById(R.id.btn_hello);
-        final TextView lbl_hello = (TextView) findViewById(R.id.lbl_hello);
+        final Button btn_hello = (Button) findViewById(R.id.btn_hello_id);
+        final TextView lbl_hello = (TextView) findViewById(R.id.lbl_hello_id);
 
         btn_hello.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
